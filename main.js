@@ -1,3 +1,10 @@
+var time='Hôm nay là';
+var date= new Date();
+var day=date.getDate();
+var month=date.getMonth()+1;
+var year=date.getFullYear();
+var thu=date.getDay()+1;
+alert(time + ' thứ '+ thu +' ngày '+ day + ' tháng '+ month + ' năm '+ year +', Time: '+ date.getHours() + ':' + date.getMinutes()+':'+date.getSeconds());
 var fullname;
 fullname='Có điều bất ngờ, bấm ok để tiếp tục';
 alert(fullname);
